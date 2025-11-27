@@ -1,0 +1,33 @@
+{
+  "name": "tracelink-api",
+  "version": "1.0.0",
+  "description": "Node.js client library for the Tracelink REST API",
+  "main": "src/tracelink-client.js",
+  "types": "src/tracelink-client.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/tracelink-client.js",
+      "import": "./src/tracelink-client.mjs"
+    }
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "tracelink",
+    "api",
+    "rest",
+    "client",
+    "erp",
+    "tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
